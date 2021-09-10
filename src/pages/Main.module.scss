@@ -1,0 +1,210 @@
+.form {
+    width: 100% !important;
+    .segment {
+        border-radius: 10px;
+        background-color: #000000;
+        .cardTitle {
+            width: 95%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            h1 {
+                color: #ffff00;
+                font-size: 65px;
+                margin: 0px !important;
+                padding: 0px !important;
+            }
+            h4 {
+                color: rgb(255, 255, 255);
+                font-size: 18px;
+                // margin: 0px !important;
+                padding-bottom: 20px;
+            }
+        }
+
+        .barcodeContainer {
+            background-color: white;
+            width: 73%;
+            margin: auto;
+        }
+
+        .barcodeImgNew {
+            margin: auto;
+        }
+        .barcodeNew {
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .barcodeBlock {
+            position: relative;
+            width: 80%;
+            margin: 0 auto;
+            padding-bottom: 10px;
+            .barcodeImg {
+                width: 100%;
+                height: 80px;
+                padding-left: 20px;
+                background-color: white;
+            }
+
+            .barcodeItems {
+                position: absolute;
+                width: 100%;
+                margin: 0 auto;
+                top: 40px;
+                left: -35px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                span {
+                    position: absolute;
+                    font-size: 20px;
+                    top: 18px;
+                    left: 40px;
+                    letter-spacing: 4px;
+                    margin: 0;
+                    font-weight: 600;
+                    color: rgb(0, 0, 0);
+                    padding-right: 5px;
+                }
+                p {
+                    position: absolute;
+                    top: 12px;
+                    left: 65px;
+                    font-size: 20px;
+                    letter-spacing: 4px;
+                    margin: 0;
+                    padding-top: 2px;
+                    font-weight: 600;
+                    color: rgb(0, 0, 0);
+                }
+                .pin {
+                    position: absolute;
+                    top: 17px;
+                    height: 25px !important;
+                    left: 180px;
+                    width: 50% !important;
+                    font-size: 20px;
+                    letter-spacing: 4px;
+                    margin: 0;
+                    padding-top: 2px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .rowContainer {
+            margin: 20px 0;
+            color: #ffffff;
+            p {
+                display: inline;
+                font-size: 40px;
+                letter-spacing: 2px;
+            }
+            .pin {
+                display: inline;
+                letter-spacing: 2px;
+                font-size: 2.8rem !important;
+                padding-top: 20px;
+                margin: 0px !important;
+            }
+        }
+    }
+}
+
+.phoneForm {
+    .cardTitle {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+            color: #339967;
+            font-size: 80px;
+            margin: 0px !important;
+            padding: 0px !important;
+        }
+        h4 {
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            margin: 0px !important;
+            padding-bottom: 10px;
+        }
+    }
+
+}
+
+.cardsContainer {
+    margin: 0 auto;
+    .card {
+        width: 100%;
+        margin: 10px auto;
+        height: auto;
+        border-radius: 10px;
+        background: #fdc830;
+        background: -webkit-linear-gradient(to right, #f37335, #fdc830);
+        background: linear-gradient(to right, #f37335, #fdc830);
+        .cardTitle {
+            font-size: 14px;
+            font-weight: 700;
+            color: black;
+        }
+        .subTitle {
+            font-size: 30px !important;
+            text-align: center;
+            font-weight: 800;
+            margin: 20px 0;
+            padding-top: 10px;
+            color: rgb(255, 255, 255) !important;
+        }
+        .btnBlock {
+            width: 60%;
+            margin: 0 auto;
+            .button {
+                border-radius: 15px;
+                background-color: rgb(255, 255, 255);
+                text-align: center;
+            }
+        }
+    }
+    .aboutCard {
+        width: 100%;
+        margin: 20px auto;
+        height: 100%;
+        border-radius: 10px;
+        // background: linear-gradient(to right, #f5af19cb, #f84531c0), url("../img/Cashback.jpg") center / cover;
+        .date {
+            color: black;
+            margin: 5px 0;
+            color: rgba(255, 255, 255, 0.788) !important;
+        }
+        .userName {
+            padding-top: 10px !important;
+            color: white !important;
+        }
+        .cardDescription {
+            color: white !important;
+        }
+    }
+
+    .saleCard {
+        width: 100%;
+        margin: 20px auto;
+        height: 100%;
+        border-radius: 10px;
+        background: linear-gradient(to right, #d4f519dc, #31f842cc), url("../img/Sale.jpg") center / cover;
+        .date {
+            color: black;
+            margin: 5px 0;
+            color: rgba(255, 255, 255, 0.788) !important;
+        }
+        .userName {
+            padding-top: 10px !important;
+            color: white !important;
+        }
+        .cardDescription {
+            color: white !important;
+        }
+    }
+}

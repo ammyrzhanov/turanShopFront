@@ -1,0 +1,29 @@
+.rowConatainer {
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+    justify-content: space-between !important;
+    padding-right: 8px !important;
+    padding-left: 5px !important;
+    .iconUser {
+        font-size: 30px;
+        margin: 10px;
+    }
+    .iconLogout {
+        font-size: 30px;
+        margin: 10px;
+        margin-right: 10px;
+    }
+    .userName {
+        font-size: 16px !important;
+        padding-top: 2px;
+        color: rgba(0,0,0,.6);
+    }
+    .userPhone {
+        font-size: 18px !important;
+        color: #000000 !important;
+    }
+    .canselePaddingLeft{
+        padding-left: 0 !important;
+    }
+
+}

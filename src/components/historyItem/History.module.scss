@@ -1,0 +1,63 @@
+.listItem {
+    margin: 15px 0 !important;
+    padding-bottom: 18px !important;
+    border-bottom: 2px solid slategrey;
+    .prise {
+        padding-top: 5px;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .userAvatar {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px !important;
+    }
+    .date {
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .action {
+        margin-top: 7px;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    .bonus {
+        font-weight: 500;
+
+        .countAdd {
+            color: #21ba45;
+            font-size: 1.7rem;
+            margin-left: 10px;
+            margin-right: 4px;
+        }
+
+        .removeAdd {
+            color: #f37335;
+            font-size: 1.7rem;
+            margin-left: 10px;
+            margin-right: 4px;
+        }
+    }
+}
+
+.iconPersent {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 12px 13px 10px 13px !important;
+    color: #ffffff;
+    background: #21ba45;
+    // background: -webkit-linear-gradient(to right, #ffffff, #21ba45);
+    // background: linear-gradient(to right, #ffffff, #21ba45);
+}
+
+.iconPersentRemove {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 12px 13px 10px 13px !important;
+    color: #ffffff;
+    background: #f37335;
+    // background: -webkit-linear-gradient(to right, #f37335, #fdc830);
+    // background: linear-gradient(to right, #f37335, #fdc830);
+}
