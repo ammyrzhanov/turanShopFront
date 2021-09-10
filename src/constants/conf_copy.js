@@ -1,3 +1,3 @@
 export const server = {
-    HOSTNAME: 'http://localhost:7000',
+    HOSTNAME: 'http://back.turanshop.ru',
 };

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { apiService } from '../services';
-import { server } from '../constants/conf';
+import { server } from '../constants/conf_copy';
 
 
 let ORIGING
